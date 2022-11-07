@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss:prod": "node-sass app/src/styles/main.scss --output app/dist/styles/"
   },
+  "files": [
+    "app/dist/styles/main.css"
+    
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JOOOEG123/custom-css-library.git"
