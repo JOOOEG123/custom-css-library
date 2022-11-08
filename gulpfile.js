@@ -1,5 +1,7 @@
 const { src, dest, watch, series } = require('gulp');
-const sass = require('gulp-sass')(require('sass'))
+const sass = require('gulp-sass')(require('sass'));
+
+// minifycss 
 
 function scssTask() {
     // return src('scss/style.scss', { sourcemaps: true })

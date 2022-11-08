@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss:prod": "node-sass app/src/styles/main.scss --output app/dist/styles/"
+    "scss:prod": "node-sass index.scss --output dist/styles/"
   },
   "files": [
     "dist/{css,js}/*.{css,js,map}",
     "js/{src,dist}/**/*.{js,map}",
     "scss/**/*.scss",
     "*scss"
-    
   ],
   "repository": {
     "type": "git",
@@ -27,6 +26,7 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.3",
     "sass": "^1.56.0"
   }
 }
